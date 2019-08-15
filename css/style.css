@@ -11306,7 +11306,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-fixed .rd-navbar-brand {
 	position: fixed;
-	top: 17px;
+	top: 10px;
 	left: 64px;
 	z-index: 17;
 	display: block;
@@ -11329,6 +11329,10 @@ html:not(.lt-ie10) .not-animated {
 	-webkit-justify-content: flex-start;
 	-ms-flex-pack: start;
 	justify-content: flex-start;
+}
+
+.rd-navbar-fixed .rd-navbar-brand img {
+	height: 40px;
 }
 
 .rd-navbar-fixed .rd-navbar-brand .brand-slogan {
